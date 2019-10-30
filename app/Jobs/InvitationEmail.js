@@ -19,7 +19,7 @@ class InvitationEmail {
       message => {
         message
           .to(email)
-          .from('willian@hotmail')
+          .from('willian@hotmail.com')
           .subject(`Convite para o time ${team.name}`)
       }
     )
